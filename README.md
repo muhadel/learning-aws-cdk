@@ -1,4 +1,4 @@
-# Learning AWS CDK TypeScript project
+# Learning AWS Cloud Development Kit (CDK) TypeScript project
 
 This is a demo project for learning CDK development with TypeScript. There is only one stack to create a custom VPC within default AWS account/region.
 

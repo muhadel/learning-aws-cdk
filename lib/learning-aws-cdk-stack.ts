@@ -1,12 +1,17 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
+import { MyNetworkStack } from './MyNetworkStack'
+
 
 export class LearningAwsCdkStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
     // The code that defines your stack goes here
+
+    // create a network stack
+    const myNetworkStack = new MyNetworkStack(this, id);
 
     // example resource
     // const queue = new sqs.Queue(this, 'LearningAwsCdkQueue', {

@@ -16,6 +16,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 
 ## How to run
+* `npm run build`   compile typescript to js
 * `cdk bootstrap`      creates an S3 bucket that the AWS CDK will use to store assets and templates
 * `cdk deploy --all`   deploy this stack to your default AWS account/region
 * `cdk destroy --all`  remove the resources created in the default AWS account/region 
